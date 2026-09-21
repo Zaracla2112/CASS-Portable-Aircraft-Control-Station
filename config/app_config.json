@@ -1,0 +1,38 @@
+{
+  "application_name": "CASS Flight Control",
+  "host": "127.0.0.1",
+  "site": {
+    "name": "Mexicali Launch Site",
+    "latitude": 32.655255,
+    "longitude": -115.407228
+  },
+  "mission": {
+    "name": "Baja Rocket 2026",
+    "vehicle_type": "rocket",
+    "aircraft_family": "custom_low_altitude_testbed",
+    "notes": "Configuracion inicial enfocada en Mexicali y hardware actual, pensada para generalizarse despues."
+  },
+  "serial": {
+    "default_port": "COM12",
+    "default_baudrate": 115200
+  },
+  "safety": {
+    "fire_confirm_window_ms": 10000
+  },
+  "ui": {
+    "refresh_ms": 250,
+    "visualizer_card_height": 430,
+    "bottom_card_min_height": 430,
+    "bottom_card_max_height": 560
+  },
+  "paths": {
+    "resources_root": "resources",
+    "tiles_dir": "resources/tiles",
+    "models_dir": "resources/models",
+    "images_dir": "resources/images",
+    "outputs_root": "outputs",
+    "local_logs_dir": "outputs/logs/local",
+    "telemetry_logs_dir": "outputs/logs/telemetry",
+    "notes_dir": "docs/notes"
+  }
+}
